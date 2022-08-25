@@ -1,0 +1,11 @@
+.sidebar {
+  box-shadow: 0 0 1rem 0.15rem rgba(32, 32, 32, 0.05);
+
+  ul {
+    li {
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}
